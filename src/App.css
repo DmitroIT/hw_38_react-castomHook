@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  padding: 30px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,8 +23,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-header a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 20px;
+}
 
 .App-link {
+  color: #61dafb;
+}
+
+nav .active {
   color: #61dafb;
 }
 
@@ -36,3 +47,4 @@
     transform: rotate(360deg);
   }
 }
+
