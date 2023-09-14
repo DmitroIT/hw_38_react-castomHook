@@ -12,7 +12,7 @@ const Users = () => {
         <div>
             <h1>Users</h1>
             {error && <p>{error}</p>}
-            {isLoading && <p>Loading ...</p>}
+            {isLoading && <p className="loading">Loading ...</p>}
             <ul>
                 {data.length > 0 && data.map((users) => {
                     return (
